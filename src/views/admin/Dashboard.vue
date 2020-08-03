@@ -16,19 +16,34 @@
                   <!-- <router-link class="nav-link" to="/admin">首頁</router-link>
               </li> -->
               <li class="nav-item">
-                  <router-link class="nav-link" to="/admin/products">產品列表</router-link>
+                  <router-link class="nav-link" to="/admin/products"
+                   active-class="active">
+                    產品列表
+                  </router-link>
               </li>
               <li class="nav-item">
-                  <router-link class="nav-link" :to="{ name: '訂單列表' }">訂單列表</router-link>
+                  <router-link class="nav-link" :to="{ name: '訂單列表' }"
+                   active-class="active">
+                    訂單列表
+                  </router-link>
               </li>
               <li class="nav-item">
-                  <router-link class="nav-link" :to="{ name: '優惠卷列表' }">優惠卷列表</router-link>
+                  <router-link class="nav-link" :to="{ name: '優惠卷列表' }"
+                   active-class="active">
+                    優惠卷列表
+                  </router-link>
               </li>
               <li class="nav-item">
-                  <router-link class="nav-link" :to="{ name: '圖庫列表' }">圖庫列表</router-link>
+                  <router-link class="nav-link" :to="{ name: '圖庫列表' }"
+                   active-class="active">
+                    圖庫列表
+                  </router-link>
               </li>
                <li class="nav-item">
-                <router-link class="nav-link" to="/admin/customerOrders">模擬訂單</router-link>
+                <router-link class="nav-link" to="/admin/customerOrders"
+                 active-class="active">
+                  模擬訂單
+                </router-link>
               </li>
             </ul>
         </div>
